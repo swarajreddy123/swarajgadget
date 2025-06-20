@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 3, 59);
+    color: white;
+    padding: 10px 10px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.first{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    gap: 10em;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.imgfirst{
+    width: 400px;
+    height: auto;
+}
+.text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.text button{
+    padding: 20px 40px;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.feat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 20px;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.feats{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    flex:1 1 250px;
+}
+.product {
+    text-align: center;
+    padding:40px 20px;
+    background-color: rgb(234, 221, 205);
+
+}
+
+
+.promain {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 70px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.procard {
+    background-color: rgb(173, 185, 197);
+    padding: 15px;
+    /* flex: 1;  */
+    margin: 0 5px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.procard img{
+    padding: 6px;
+}
+.procard:hover{
+    transform: scale(1.1);
+}
+
+/* .procard img {
+    max-width: 100%;
+    height: auto;
+} */
+ footer{
+    text-align: center;
+ }
+ h5{
+    color: aliceblue;
+    padding: 20px;
+    background-color: rgb(3, 3, 59);
+ }
